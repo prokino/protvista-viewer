@@ -1,12 +1,12 @@
 {
   "name": "ncats-protvista-viewer",
   "description": "A collection of nightingale and custom components to show details of a protein sequence",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "pub": "npm run build && npm version patch && npm publish"
+    "pub": "npm run build && npm version patch --no-git-tag-version"
   },
   "dependencies": {
     "protvista-manager": "^3.0.0",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncats/protvista-viewer.git"
+    "url": "git+https://github.com/prokino/protvista-viewer.git"
   },
   "keywords": [
     "ProtVista",
@@ -34,7 +34,7 @@
   "author": "Keith Kelleher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ncats/protvista-viewer/issues"
+    "url": "https://github.com/prokino/protvista-viewer/issues"
   },
-  "homepage": "https://github.com/ncats/protvista-viewer#readme"
+  "homepage": "https://github.com/prokino/protvista-viewer#readme"
 }
